@@ -27,7 +27,7 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="luas">Luas</label>
-                        <input type="number" class="form-control" id="luas" placeholder="Luas area yang ditempati /m<sup>2</sup>" name="luas">
+                        <input type="number" class="form-control" id="luas" placeholder="Luas area yang ditempati /m²" name="luas">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="jenis_jualan">Jenis jualan</label>
@@ -63,6 +63,10 @@
                     <div class="form-group col-md-4">
                         <label for="jalan">Jalan</label>
                         <input type="text" class="form-control" id="jalan" name="jalan">
+                    </div>
+                    <div class="form-group col-md-4 mb-3">
+                        <label for="formFile" class="form-label">KTP</label>
+                        <input class="form-control" type="file" id="formFile">
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Ajukan Formulir</button>

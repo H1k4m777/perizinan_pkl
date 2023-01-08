@@ -12,28 +12,28 @@
                 <div class="card bg-warning m-2" style="width: 300px;">
                     <div class="card-body text-light">
                         <h3 class="card-title">Jumlah Pengajuan :</h3>
-                        <p class="card-text">1</p>
+                        <p class="card-text"><?= $form ?></p>
                         <i class="fa-solid fa-pen-to-square"></i>
                     </div>
                 </div>
-                <div class="card bg-warning m-2" style="width: 300px;">
+                <div class="card bg-success m-2" style="width: 300px;">
                     <div class="card-body text-light">
                         <h3 class="card-title">Jumlah Data PKL :</h3>
-                        <p class="card-text">1</p>
+                        <p class="card-text"><?= $pkl ?></p>
                         <i class="fa-solid fa-pen-to-square"></i>
                     </div>
                 </div>
-                <div class="card bg-warning m-2" style="width: 300px;">
+                <div class="card bg-info m-2" style="width: 300px;">
                     <div class="card-body text-light">
                         <h3 class="card-title">Jumlah User Member :</h3>
                         <p class="card-text">1</p>
                         <i class="fa-solid fa-pen-to-square"></i>
                     </div>
                 </div>
-                <div class="card bg-warning m-2" style="width: 300px;">
+                <div class="card bg-danger m-2" style="width: 300px;">
                     <div class="card-body text-light">
                         <h3 class="card-title">Jumlah User Admin :</h3>
-                        <p class="card-text">1</p>
+                        <p class="card-text"><?= $jumlah_admin ?></p>
                         <i class="fa-solid fa-pen-to-square"></i>
                     </div>
                 </div>

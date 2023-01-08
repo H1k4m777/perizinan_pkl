@@ -11,7 +11,17 @@
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Services</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.
+                <ol>
+                    <li>Pertama, buka halaman login di website yang akan dibuat.</li>
+                    <li>Jika belum memiliki akun, pilih tombol "Daftar" dan isi form pendaftaran yang muncul.</li>
+                    <li>Jika sudah memiliki akun, masukkan nama pengguna dan kata sandi yang telah didaftarkan sebelumnya, lalu klik tombol "Masuk".</li>
+                    <li>Setelah berhasil masuk, pilih menu "Ajukan perizinan".</li>
+                    <li>Isi form pengajuan perizinan yang tersedia dengan data yang sesuai dan lengkap, kemudian klik tombol "Ajukan".</li>
+                    <li>Untuk melihat status ajuan perizinan yang telah diajukan, pilih menu "Status ajuan".</li>
+                    <li>Jika ajuan perizinan telah disetujui, pilih tombol "Cetak surat izin" untuk mencetak surat izin yang telah disetujui.</li>
+                </ol>
+            </h3>
         </div>
         <div class="row text-center">
             <div class="col-md-4">

@@ -44,7 +44,7 @@
 			<!-- Nav Item - Dashboard -->
 			<li class="nav-item">
 				<a class="nav-link" href="<?= base_url('member'); ?>">
-					<i class="fas fa-fw fa-tachometer-alt"></i>
+					<i class="fas fa-fw fa-circle-question"></i>
 					<span>Panduan</span></a>
 			</li>
 
@@ -59,22 +59,29 @@
 			<!-- Nav Item - Tables -->
 			<li class="nav-item">
 				<a class="nav-link" href="<?= base_url('member/formulir'); ?>">
-					<i class="fas fa-fw fa-table"></i>
+					<i class="fas fa-fw fa-file-export"></i>
 					<span>Ajukan Perizinan PKL</span></a>
 			</li>
 
 			<!-- Nav Item - Tables -->
 			<li class="nav-item">
 				<a class="nav-link" href="<?= base_url('member/status'); ?>">
-					<i class="fas fa-fw fa-table"></i>
+					<i class="fas fa-fw fa-file-circle-question"></i>
 					<span>Status ajuan</span></a>
 			</li>
 
 			<!-- Nav Item - Tables -->
 			<li class="nav-item">
 				<a class="nav-link" href="<?= base_url('member/cetak'); ?>">
-					<i class="fas fa-fw fa-table"></i>
+					<i class="fas fa-fw fa-print"></i>
 					<span>Cetak Surat Izin</span></a>
+			</li>
+
+			<!-- Nav Item - Tables -->
+			<li class="nav-item">
+				<a class="nav-link" href="<?= base_url('auth/logout'); ?>">
+					<i class="fas fa-fw fa-right-from-bracket"></i>
+					<span>Logout</span></a>
 			</li>
 
 			<!-- Divider -->

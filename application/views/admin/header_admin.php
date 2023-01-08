@@ -74,11 +74,11 @@
 						<a class="collapse-item" href="">Mijen</a>
 						<a class="collapse-item" href="">Ngaliyan</a>
 						<a class="collapse-item" href="">Pedurungan</a>
-						<a class="collapse-item" href="">Semaran Barat</a>
-						<a class="collapse-item" href="">Semaran Selatan</a>
-						<a class="collapse-item" href="">Semaran Tengah</a>
-						<a class="collapse-item" href="">Semaran Timur</a>
-						<a class="collapse-item" href="">Semaran Utara</a>
+						<a class="collapse-item" href="<?= base_url('admin/pkl/Semarang Barat'); ?>">Semarang Barat</a>
+						<a class="collapse-item" href="<?= base_url('admin/pkl/Semarang Selatan'); ?>">Semarang Selatan</a>
+						<a class="collapse-item" href="<?= base_url('admin/pkl/Semarang Tengah'); ?>">Semarang Tengah</a>
+						<a class="collapse-item" href="<?= base_url('admin/pkl/Semarang Timur'); ?>">Semarang Timur</a>
+						<a class="collapse-item" href="<?= base_url('admin/pkl/Semarang Utara'); ?>">Semarang Utara</a>
 						<a class="collapse-item" href="">Tembalang</a>
 						<a class="collapse-item" href="">Tugu</a>
 					</div>
@@ -101,10 +101,18 @@
 			</li>
 
 			<!-- Divider -->
-			<hr class="sidebar-divider">
+			<hr class="sidebar-divider d-none d-md-block">
+
+			<!-- Nav Item - Tables -->
+			<li class="nav-item">
+				<a class="nav-link" href="<?= base_url('auth/logout'); ?>">
+					<i class="fas fa-fw fa-right-from-bracket"></i>
+					<span>Logout</span></a>
+			</li>
 
 			<!-- Divider -->
 			<hr class="sidebar-divider d-none d-md-block">
+
 
 			<!-- Sidebar Toggler (Sidebar) -->
 			<div class="text-center d-none d-md-inline">

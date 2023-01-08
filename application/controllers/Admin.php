@@ -15,6 +15,10 @@ class Admin extends CI_Controller
     public function index()
     {
         $data['nama'] = $this->session->userdata('user')['nama'];
+        $data['pkl'] = $this->db->count_all('pkl');
+        $data['form'] = $this->db->count_all('form_pengajuan');
+        $this->db->where('id_role', 1);
+        $data['jumlah_admin'] = $this->db->count_all_results('user');
         $this->load->view('admin/header_admin', $data);
         $this->load->view('admin/dashboard', $data);
         $this->load->view('admin/footer_admin', $data);
@@ -85,5 +89,14 @@ class Admin extends CI_Controller
         $this->db->where('id_form', $id);
         $this->db->update('form_pengajuan');
         redirect('admin/ajuan');
+    }
+
+    public function pkl($kec)
+    {
+        $data['nama'] = $this->session->userdata('user')['nama'];
+        $data['kec'] = str_replace("%20", " ", $kec);
+        $this->load->view('admin/header_admin', $data);
+        $this->load->view('admin/pkl_kec', $data);
+        $this->load->view('admin/footer_admin', $data);
     }
 }

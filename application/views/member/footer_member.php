@@ -60,6 +60,9 @@
 <!-- tabel -->
 <script src="<?= base_url('sbadmin/'); ?>js/demo/datatables-demo.js"></script>
 
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/d21ccc1a43.js" crossorigin="anonymous"></script>
+
 </body>
 
 <script>
